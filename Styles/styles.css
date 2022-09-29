@@ -199,16 +199,17 @@ nav .nav_links li a:hover {
   background-image: url("../Assets/icons/search_icon.png");
   background-repeat: no-repeat;
   background-position: 82%;
-  background-size: 13%;
+  background-size: 16%;
   border: none;
   border-radius: 30px;
   background-color: var(--dark_brown_opacity);
-  width: 75%;
+  width: 70%;
+  font-family: inherit;
   /* padding: 18px 8px; */
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 8px;
-  padding-right: 44px;
+  padding-right: 55px;
   transition: all 0.2s ease;
 }
 
@@ -611,6 +612,8 @@ nav .nav_links li a:hover {
 }
 
 .quotes_container {
+  /* Vusialluy */
+  /* padding-top: 401px; */
   padding-top: 401px;
   /* According to design */
   /* padding-bottom: 191px;*/
@@ -799,7 +802,7 @@ nav .nav_links li a:hover {
   background-color: #ddb37d;
   color: #fff;
   text-align: center;
-  padding-top: 250px;
+  padding-top: 262px;
   padding-bottom: 381px;
 }
 
@@ -1210,6 +1213,9 @@ footer ul li a:hover {
   }
   .quotes_container {
     padding-top: 275px;
+  }
+  .newsletter_container form input {
+    padding-right: 92px;
   }
   .section_divider_v2 img {
     bottom: -8%;
